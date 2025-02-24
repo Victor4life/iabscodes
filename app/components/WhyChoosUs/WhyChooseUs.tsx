@@ -23,6 +23,11 @@ const WhyChooseUs = () => {
       description: "Fast and efficient service delivery",
       icon: "/Group.png",
     },
+    {
+      title: "Quick Solutions",
+      description: "Fast and efficient service delivery",
+      icon: "/Group.png",
+    },
   ];
 
   return (
@@ -37,7 +42,7 @@ const WhyChooseUs = () => {
                   key={index}
                   className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <div className="flex items-start gap-4">
+                  <div className="flex items-start gap-2">
                     <Image
                       src={reason.icon}
                       alt={reason.title}
@@ -57,23 +62,30 @@ const WhyChooseUs = () => {
             </div>
           </div>
 
-          <div className="w-full h-full md:w-1/2 flex justify-center">
-            <Image
-              src="/Rectangle1.png"
-              alt="VTU Business"
-              width={100}
-              height={100}
-              className="object-cover z-10 rounded-lg w-full h-full"
-              priority
-            />
-            <Image
-              src="/Rectangle.png"
-              alt="VTU Business"
-              width={100}
-              height={100}
-              className="object-cover z-10 rounded-lg w-full h-full"
-              priority
-            />
+          <div className="w-full md:w-1/2 relative h-full flex justify-center">
+            {/* Base Image */}
+            <div className="relative w-[500px] h-[400px]">
+              {" "}
+              {/* Adjust these dimensions as needed */}
+              <Image
+                src="/Rectangle.png"
+                alt="VTU Business"
+                fill
+                className="object-cover border-2 border-white"
+                priority
+              />
+              <div className="absolute -bottom-[20px] left-0 w-[300px] h-[250px]">
+                {" "}
+                {/* Adjust these dimensions as needed */}
+                <Image
+                  src="/Rectangle1.png"
+                  alt="VTU Business"
+                  fill
+                  className="object-cover border-2 border-white"
+                  priority
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

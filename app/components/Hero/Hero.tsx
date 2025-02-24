@@ -17,12 +17,12 @@ const Hero = () => {
                 className="responsive-image"
               />
             </div>
-            <div>
-              <h1 className="text-2xl md:text-[43.2px] leading-tight md:leading-[36px] font-light text-gray-800 font-bold ">
+            <div className="flex flex-col justify-center items-start h-full">
+              <h1 className="text-2xl md:text-[43.2px] leading-tight md:leading-[36px] font-light text-gray-800 font-bold">
                 Scale up Your VTU and Bill Payment Business with Secure,
                 Reliable Solutions
               </h1>
-              <p>
+              <p className="mt-6">
                 Launch and manage your own platform with ease. Save costs,
                 streamline operations, and deliver unparalleled customer
                 experiences.
