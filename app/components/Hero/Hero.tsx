@@ -17,12 +17,12 @@ const Hero = () => {
                 className="responsive-image"
               />
             </div>
-            <div className="flex flex-col justify-center items-start h-full">
-              <h1 className="text-2xl md:text-[43.2px] leading-tight md:leading-[36px] font-light text-gray-800 font-bold">
+            <div className="flex flex-col justify-center items-start h-full ">
+              <h1 className="text-3xl md:text-[43.2px] leading-tight md:leading-[36px] font-bold">
                 Scale up Your VTU and Bill Payment Business with Secure,
                 Reliable Solutions
               </h1>
-              <p className="mt-6">
+              <p className="mt-6  text-gray-800">
                 Launch and manage your own platform with ease. Save costs,
                 streamline operations, and deliver unparalleled customer
                 experiences.
@@ -45,7 +45,6 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-
             <div className="image-wrapper bottom-right">
               <Image
                 src="/icon-park-twotone_database-power.png"
@@ -64,10 +63,18 @@ const Hero = () => {
               <Image
                 src="/subway_power.png"
                 alt="VTU Business"
-                width={70}
-                height={70}
-                className="object-contain absolute -top-5 -right-12 -z-10"
+                width={90}
+                height={90}
+                className="object-contain absolute -top-5 -right-16 -z-10"
               />
+              <Image
+                src="/Ray.png"
+                alt="VTU Business"
+                width={40}
+                height={40}
+                className="object-contain absolute -top-4 left-0"
+              />
+
               <Image
                 src="/vtu.png"
                 alt="VTU Business"
@@ -82,7 +89,7 @@ const Hero = () => {
                 alt="VTU Business"
                 width={70}
                 height={70}
-                className="object-contain absolute -right-10 -top-10 z-0"
+                className="object-contain absolute -right-5 -top-5"
               />
 
               <Image
@@ -90,7 +97,21 @@ const Hero = () => {
                 alt="VTU Business"
                 width={300}
                 height={300}
-                className="object-contain h-full z-10"
+                className="object-contain h-full"
+              />
+              <Image
+                src="/line-md_speed-loop.png"
+                alt="VTU Business"
+                width={70}
+                height={70}
+                className="object-contain absolute -bottom-5 right-2"
+              ></Image>
+              <Image
+                src="/Rays.png"
+                alt="VTU Business"
+                width={40}
+                height={40}
+                className="object-contain absolute bottom-0 right-0"
               />
             </div>
           </div>
