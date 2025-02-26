@@ -85,7 +85,7 @@ const Hero = () => {
             </div>
             <div className="pseudo-image -mb-40 relative">
               <Image
-                src="/frame1.png"
+                src="/images/frame1.png"
                 alt="VTU Business"
                 width={70}
                 height={70}
@@ -93,21 +93,21 @@ const Hero = () => {
               />
 
               <Image
-                src="/image.png"
+                src="/images/image.png"
                 alt="VTU Business"
                 width={300}
                 height={300}
                 className="object-contain h-full"
               />
               <Image
-                src="/line-md_speed-loop.png"
+                src="/images/line-md_speed-loop.png"
                 alt="VTU Business"
                 width={70}
                 height={70}
                 className="object-contain absolute -bottom-5 right-2"
               ></Image>
               <Image
-                src="/Rays.png"
+                src="/images/Rays.png"
                 alt="VTU Business"
                 width={40}
                 height={40}
