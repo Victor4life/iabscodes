@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="image-container">
             <div className="image-wrapper top-left">
               <Image
-                src="/Vector.png"
+                src="/images/Vector.png"
                 alt="VTU Business"
                 fill
                 className="responsive-image"
@@ -36,7 +36,7 @@ const Hero = () => {
                     Get Started
                   </button>
                   <Image
-                    src="/component.png"
+                    src="/images/component.png"
                     alt="VTU Business"
                     width={50}
                     height={50}
@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
             <div className="image-wrapper bottom-right">
               <Image
-                src="/icon-park-twotone_database-power.png"
+                src="/images/icon-park-twotone_database-power.png"
                 alt="VTU Business"
                 fill
                 className="responsive-image"
@@ -61,14 +61,14 @@ const Hero = () => {
           <div className="relative flex gap-2 flex-1 items-center pb-12">
             <div className="image-with-pseudo relative">
               <Image
-                src="/subway_power.png"
+                src="/images/subway_power.png"
                 alt="VTU Business"
                 width={90}
                 height={90}
                 className="object-contain absolute -top-5 -right-16 -z-10"
               />
               <Image
-                src="/Ray.png"
+                src="/images/Ray.png"
                 alt="VTU Business"
                 width={40}
                 height={40}
@@ -76,7 +76,7 @@ const Hero = () => {
               />
 
               <Image
-                src="/vtu.png"
+                src="/images/vtu.png"
                 alt="VTU Business"
                 width={300}
                 height={300}

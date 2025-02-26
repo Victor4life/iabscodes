@@ -5,6 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: "/iabscodes",
+  assetPrefix: "/iabscodes/",
 };
 
 module.exports = nextConfig;
