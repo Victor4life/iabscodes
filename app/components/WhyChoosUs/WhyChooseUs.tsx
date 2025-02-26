@@ -6,27 +6,27 @@ const WhyChooseUs = () => {
     {
       title: "Experience & Expertise",
       description: "Years of industry experience delivering quality solutions",
-      icon: "/Group.png",
+      icon: "/images/Group.png",
     },
     {
       title: "24/7 Support",
       description: "Round-the-clock customer support for all your needs",
-      icon: "/Group.png",
+      icon: "/images/Group.png",
     },
     {
       title: "Competitive Pricing",
       description: "Best value for money with transparent pricing",
-      icon: "/Group.png",
+      icon: "/images/Group.png",
     },
     {
       title: "Quick Solutions",
       description: "Fast and efficient service delivery",
-      icon: "/Group.png",
+      icon: "/images/Group.png",
     },
     {
       title: "Quick Solutions",
       description: "Fast and efficient service delivery",
-      icon: "/Group.png",
+      icon: "/images/Group.png",
     },
   ];
 
@@ -65,14 +65,14 @@ const WhyChooseUs = () => {
             {/* Base Image */}
             <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[400px]">
               <Image
-                src="/Rectangle.png"
+                src="/images/Rectangle.png"
                 alt="VTU Business"
                 fill
                 className="object-cover rounded-lg"
                 priority
               />
               <Image
-                src="/Rays.png"
+                src="/images/Rays.png"
                 alt="VTU Business"
                 width={50}
                 height={50}
@@ -82,7 +82,7 @@ const WhyChooseUs = () => {
             </div>
             <div className="absolute -bottom-[5rem] md:-bottom-[10rem] -left-[2rem] md:-left-[5rem] w-[150px] h-[150px] md:w-[300px] md:h-[300px]">
               <Image
-                src="/Rectangle1.png"
+                src="/images/Rectangle1.png"
                 alt="VTU Business"
                 fill
                 className="object-cover border-t-[5px] border-white rounded-lg"
