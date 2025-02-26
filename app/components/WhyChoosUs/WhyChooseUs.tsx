@@ -33,13 +33,15 @@ const WhyChooseUs = () => {
   return (
     <section className="py-16 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-[#2989D8] text-2xl mb-4">Why Choose Us</h2>
-        <div className="flex flex-col md:flex-row gap-1 items-center">
+        <h2 className="text-[#2989D8] text-2xl mb-8 text-center md:text-left">
+          Why Choose Us
+        </h2>
+        <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2">
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+            <div className="grid grid-cols-1 gap-6">
               {reasons.map((reason, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg">
-                  <div className="flex items-start gap-2">
+                <div key={index} className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="flex items-start gap-4">
                     <Image
                       src={reason.icon}
                       alt={reason.title}
@@ -61,16 +63,16 @@ const WhyChooseUs = () => {
 
           <div className="w-full md:w-1/2 relative h-full flex justify-center">
             {/* Base Image */}
-            <div className="relative w-[500px] h-[400px]">
+            <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[400px]">
               <Image
                 src="/Rectangle.png"
                 alt="VTU Business"
                 fill
-                className="object-cover"
+                className="object-cover rounded-lg"
                 priority
               />
               <Image
-                src="/Rays1.png"
+                src="/Rays.png"
                 alt="VTU Business"
                 width={50}
                 height={50}
@@ -78,12 +80,12 @@ const WhyChooseUs = () => {
                 priority
               />
             </div>
-            <div className="absolute -bottom-[10rem] -left-[5rem] w-[300px] h-[300px]">
+            <div className="absolute -bottom-[5rem] md:-bottom-[10rem] -left-[2rem] md:-left-[5rem] w-[150px] h-[150px] md:w-[300px] md:h-[300px]">
               <Image
                 src="/Rectangle1.png"
                 alt="VTU Business"
                 fill
-                className="object-cover border-t-[5px] border-white"
+                className="object-cover border-t-[5px] border-white rounded-lg"
                 priority
               />
             </div>
