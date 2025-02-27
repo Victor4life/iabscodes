@@ -1,4 +1,5 @@
 import Hero from "./components/Hero/Hero";
+import WhatWeOffer from "./components/WhatWeOffer/WhatWeOffer";
 import WhyChooseUs from "./components/WhyChoosUs/WhyChooseUs";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <WhyChooseUs />
+      <WhatWeOffer />
     </main>
   );
 }

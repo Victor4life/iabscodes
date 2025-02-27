@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Your App",
+  title: "IABCODES",
   description: "Your app description",
 };
 

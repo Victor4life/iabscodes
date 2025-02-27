@@ -1,23 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone", // Change from "export" to "standalone"
+  output: "export",
   images: {
     unoptimized: true,
+    loader: "akamai",
+    path: "",
   },
-  basePath: "/iabscodes",
-  assetPrefix: "/iabscodes",
-  webpack: (config, { isServer }) => {
-    config.experiments = {
-      ...config.experiments,
-      topLevelAwait: true,
-    };
-    return config;
-  },
-  // Add this to help with chunk loading
-  experimental: {
-    optimizeCss: true,
-    scrollRestoration: true,
-  },
+  basePath: process.env.NODE_ENV === "production" ? "/iabscodes" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/iabscodes" : "",
 };
 
 module.exports = nextConfig;
