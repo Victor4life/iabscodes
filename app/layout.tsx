@@ -1,5 +1,12 @@
 import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Your App",
+  description: "Your app description",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -8,8 +15,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        {children}
+        <div className="main">
+          <Navbar />
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   );
