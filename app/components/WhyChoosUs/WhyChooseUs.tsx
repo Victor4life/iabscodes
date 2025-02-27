@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
           <div className="w-full md:w-1/2">
             <div className="grid grid-cols-1 gap-8">
               {reasons.map((reason, index) => (
-                <div key={index} className="bg-white p-2 hover:shadow-lg ">
+                <div key={index} className="bg-white p-2">
                   <div className="flex items-start space-x-6">
                     <div className="w-12 h-12 flex-shrink-0">
                       <Image

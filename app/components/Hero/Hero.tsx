@@ -89,7 +89,7 @@ const Hero = () => {
                 alt="VTU Business"
                 width={70}
                 height={70}
-                className="object-contain absolute -right-5 -top-5"
+                className="object-contain absolute -right-5 -top-5 z-0"
               />
 
               <Image
@@ -97,15 +97,15 @@ const Hero = () => {
                 alt="VTU Business"
                 width={300}
                 height={300}
-                className="object-contain h-full"
+                className="object-contain h-full relative z-10"
               />
               <Image
                 src="/line-md_speed-loop.png"
                 alt="VTU Business"
                 width={70}
                 height={70}
-                className="object-contain absolute -bottom-5 right-2"
-              ></Image>
+                className="object-contain absolute -bottom-5 right-2 z-0"
+              />
               <Image
                 src="/Rays.png"
                 alt="VTU Business"
