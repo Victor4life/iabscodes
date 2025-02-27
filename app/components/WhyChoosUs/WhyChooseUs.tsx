@@ -64,14 +64,14 @@ const WhyChooseUs = () => {
               ))}
             </div>
           </div>
-
+          {/*Image Part*/}
           <div className="w-full md:w-1/2 relative h-full flex justify-center items-center">
             <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[400px]">
               <Image
                 src="/Rectangle.png"
                 alt="VTU Business"
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority
               />
               <Image
@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
                 alt="VTU Business"
                 width={50}
                 height={50}
-                className="absolute -top-8 -right-8 object-cover"
+                className="absolute -top-8 -right-8 object-contain"
                 priority
               />
             </div>
@@ -88,7 +88,7 @@ const WhyChooseUs = () => {
                 src="/Rectangle1.png"
                 alt="VTU Business"
                 fill
-                className="object-cover border-t-[10px] border-white"
+                className="object-contain"
                 priority
               />
             </div>

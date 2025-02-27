@@ -35,29 +35,31 @@ const WhyChooseUs = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row gap-12 items-start">
           {/* Left side - Images */}
-          <div className="w-full md:w-1/2 space-y-16 flex">
-            <div className="relative w-full">
+          <div className="w-full md:w-1/2 relative h-full flex justify-center items-center">
+            <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[400px]">
               <Image
                 src="/Rectangle 21.png"
-                alt="First Service Image"
+                alt="VTU Business"
                 fill
-                className="object-contain h-[300px] md:h-[400px]"
+                className="object-contain"
+                priority
               />
               <Image
                 src="/Ray.png"
                 alt="VTU Business"
                 width={50}
                 height={50}
-                className="absolute -top-8 -left-8 object-contain"
+                className="absolute top-0 left-0 object-contain"
                 priority
               />
             </div>
-            <div className="relative w-full h-[200px] md:h-[300px]">
+            <div className="absolute -bottom-[6rem] md:-bottom-[8rem] -right-[2rem] md:-right-[4rem] w-[150px] h-[150px] md:w-[250px] md:h-[250px]">
               <Image
                 src="/Rectangle 22.png"
-                alt="Second Service Image"
+                alt="VTU Business"
                 fill
-                className="object-contain absolute -bottom-8 -left-8"
+                className="object-contain"
+                priority
               />
             </div>
           </div>
