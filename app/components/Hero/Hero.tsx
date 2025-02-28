@@ -18,7 +18,7 @@ const Hero = () => {
               />
             </div>
             <div className="flex flex-col justify-center items-start h-full ">
-              <h1 className="text-3xl md:text-[43.2px] leading-tight md:leading-[36px] font-bold">
+              <h1 className="text-[#343434] text-3xl md:text-[43.2px] leading-tight md:leading-[36px] font-semibold">
                 Scale up Your VTU and Bill Payment Business with Secure,
                 Reliable Solutions
               </h1>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const WhyChooseUs = () => {
+const AboutWhyChooseUs = () => {
   const reasons = [
     {
       title: "Airtime and Data Services",
@@ -31,8 +31,8 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="py-20 px-4 md:px-8 lg:px-16">
-      <div className="max-w-7xl mx-auto">
+    <section>
+      <div className="max-w-6xl mx-auto px-4 py-20 md:px-8 lg:px-8">
         <div className="flex flex-col md:flex-row gap-16 md:gap-24 items-start justify-between">
           {/* Left side - Images*/}
           <div className="w-full md:w-1/2 relative flex justify-center items-center my-auto">
@@ -105,4 +105,4 @@ const WhyChooseUs = () => {
   );
 };
 
-export default WhyChooseUs;
+export default AboutWhyChooseUs;
