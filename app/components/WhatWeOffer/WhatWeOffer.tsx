@@ -6,27 +6,27 @@ const WhyChooseUs = () => {
     {
       title: "Airtime and Data Services",
       description: "Years of industry experience delivering quality solutions",
-      icon: "/Group 67.png",
+      icon: "Group 67.png",
     },
     {
       title: "Bill Payment",
       description: "Round-the-clock customer support for all your needs",
-      icon: "/Group 68.png",
+      icon: "Group 68.png",
     },
     {
       title: "Automated Solution",
       description: "Best value for money with transparent pricing",
-      icon: "/Group 69.png",
+      icon: "Group 69.png",
     },
     {
       title: "Multi Level Platforms",
       description: "Fast and efficient service delivery",
-      icon: "/Group 70.png",
+      icon: "Group 70.png",
     },
     {
       title: "Comprehensive Services",
       description: "Fast and efficient service delivery",
-      icon: "/Group 71.png",
+      icon: "Group 71.png",
     },
   ];
 
@@ -38,14 +38,14 @@ const WhyChooseUs = () => {
           <div className="w-full md:w-1/2 relative flex justify-center items-center my-auto">
             <div className="relative w-full h-[250px] sm:h-[300px] md:h-[400px] flex items-center">
               <Image
-                src="/Rectangle 21.png"
+                src="Rectangle 21.png"
                 alt="VTU Business"
                 fill
                 className="object-contain"
                 priority
               />
               <Image
-                src="/Ray.png"
+                src="Ray.png"
                 alt="VTU Business"
                 width={50}
                 height={50}
@@ -55,7 +55,7 @@ const WhyChooseUs = () => {
             </div>
             <div className="absolute -bottom-[4rem] -right-[1rem] w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] md:-bottom-[6rem] md:-right-[2rem] lg:-bottom-[3rem] lg:-right-[4rem]">
               <Image
-                src="/Rectangle 22.png"
+                src="Rectangle 22.png"
                 alt="VTU Business"
                 fill
                 className="object-contain"

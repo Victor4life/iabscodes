@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
             <div className="image-wrapper bottom-right">
               <Image
-                src="/icon-park-twotone_database-power.png"
+                src="icon-park-twotone_database-power.png"
                 alt="VTU Business"
                 fill
                 className="responsive-image"
@@ -61,14 +61,14 @@ const Hero = () => {
           <div className="relative flex gap-2 flex-1 items-center pb-12">
             <div className="image-with-pseudo relative">
               <Image
-                src="/subway_power.png"
+                src="subway_power.png"
                 alt="VTU Business"
                 width={90}
                 height={90}
                 className="object-contain absolute -top-5 -right-16 -z-10"
               />
               <Image
-                src="/Ray.png"
+                src="Ray.png"
                 alt="VTU Business"
                 width={40}
                 height={40}
@@ -76,7 +76,7 @@ const Hero = () => {
               />
 
               <Image
-                src="/vtu.png"
+                src="vtu.png"
                 alt="VTU Business"
                 width={300}
                 height={300}
@@ -85,7 +85,7 @@ const Hero = () => {
             </div>
             <div className="pseudo-image -mb-40 relative">
               <Image
-                src="/frame1.png"
+                src="frame1.png"
                 alt="VTU Business"
                 width={70}
                 height={70}
@@ -93,21 +93,21 @@ const Hero = () => {
               />
 
               <Image
-                src="/image.png"
+                src="image.png"
                 alt="VTU Business"
                 width={300}
                 height={300}
                 className="object-contain h-full relative z-10"
               />
               <Image
-                src="/line-md_speed-loop.png"
+                src="line-md_speed-loop.png"
                 alt="VTU Business"
                 width={70}
                 height={70}
                 className="object-contain absolute -bottom-5 right-2 z-0"
               />
               <Image
-                src="/Rays.png"
+                src="Rays.png"
                 alt="VTU Business"
                 width={40}
                 height={40}
