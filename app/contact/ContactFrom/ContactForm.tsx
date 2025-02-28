@@ -42,7 +42,7 @@ const ContactForm = () => {
           Fill out the form below, and one of our representatives will get back
           to you shortly.
         </p>
-        <div className="grid grid-cols-1 md:flex md:justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 container mx-auto px-4">
           <div className="max-w-2xl mx-auto p-8 grid grid-cols-1 gap-8">
             {/* Contact Information */}
             <div className="space-y-6 border p-6 rounded-md border-[#2989D8]">
@@ -121,11 +121,13 @@ const ContactForm = () => {
             </div>
 
             {/* Social Media Links */}
-            <div className="pt-6 border p-6 rounded-md border-[#2989D8]">
-              <h3 className="text-xl font-semibold text-gray-800">
+            <div className="pt-6 border p-8 rounded-md border-[#2989D8]">
+              <h3 className="text-xl font-semibold text-gray-800 pb-2">
                 Social Media
               </h3>
-              <p>Stay updated with our latest news and offerings</p>
+              <p className="pb-2">
+                Stay updated with our latest news and offerings
+              </p>
               <div className="flex justify-start space-x-6">
                 {/* Facebook */}
                 <a href="#" className="text-blue-600 hover:text-blue-700">
@@ -245,6 +247,13 @@ const ContactForm = () => {
             </div>
           </form>
         </div>
+      </div>
+      <div className="text-center mt-20 text-[#343434]">
+        <p>
+          We look forward to working with you and helping your business thrive.
+          <br />
+          Reach out today!
+        </p>
       </div>
     </section>
   );

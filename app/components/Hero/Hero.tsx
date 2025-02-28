@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="image-container">
             <div className="image-wrapper top-left">
               <Image
-                src="/Vector.png"
+                src="Vector.png"
                 alt="VTU Business"
                 fill
                 className="responsive-image"
@@ -36,7 +36,7 @@ const Hero = () => {
                     Get Started
                   </button>
                   <Image
-                    src="/component.png"
+                    src="component.png"
                     alt="VTU Business"
                     width={50}
                     height={50}
