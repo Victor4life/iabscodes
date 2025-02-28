@@ -14,8 +14,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#0661AC8F] text-white mt-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12">
+    <footer className="mt-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 bg-[#0661AC8F] text-white ">
         <div className="grid grid-cols-1 md:flex md:flex-1 gap-8 justify-between">
           <div className="flex-shrink-0">
             <Image src={logo} alt="Logo" width={120} height={100} />
@@ -150,13 +150,13 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          {/* Copyright Section 
-        <div className="mt-12 pt-8 border-t border-gray-800 text-center">
-          <p className="text-white">
-            &copy; {currentYear} Your Company Name. All rights reserved.
-          </p>
-        </div>*/}
         </div>
+      </div>
+
+      {/* Copyright Section */}
+      <div className="py-4 text-center text-[#585757] text-sm">
+        <p>IAB CODES Ltd</p>
+        <p>All rights reserved &copy; {currentYear} .</p>
       </div>
     </footer>
   );

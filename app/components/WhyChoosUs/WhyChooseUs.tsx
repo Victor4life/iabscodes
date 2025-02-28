@@ -46,8 +46,8 @@ const WhyChooseUs = () => {
                       <Image
                         src={reason.icon}
                         alt={reason.title}
-                        width={48}
-                        height={48}
+                        width={50}
+                        height={50}
                         className="object-contain"
                       />
                     </div>
