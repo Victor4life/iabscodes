@@ -4,7 +4,7 @@ import React from "react";
 const OurServices = () => {
   return (
     <section>
-      <div className="w-full py-12 px-6 md:px-16">
+      <div className="w-full py-12 px-6 md:px-16 md:py-16">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-8 justify-center items-center">
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-semibold mb-6 text-[#2989D8]">
@@ -38,7 +38,7 @@ const OurServices = () => {
                 src="Rectangle 19.png"
                 alt="Web Development Services"
                 width={600}
-                height={400}
+                height={300}
                 className="rounded-lg shadow-lg"
                 priority
               />
@@ -51,10 +51,10 @@ const OurServices = () => {
           <div className="w-full md:w-1/2">
             <div className="">
               <Image
-                src="Rectangle 19.png"
+                src="Rectangle 18.png"
                 alt="Web Development Services"
                 width={600}
-                height={400}
+                height={300}
                 className="rounded-lg shadow-lg"
                 priority
               />
