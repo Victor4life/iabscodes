@@ -11,12 +11,12 @@
   }
 
   .top-left {
-    top: -8rem;
+    top: 0;
     left: 0;
   }
 
   .bottom-right {
-    bottom: -5rem;
+    bottom: 0;
     right: 0;
   }
 }
@@ -47,4 +47,39 @@
   top: -10px;
   right: 0;
   z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Tablet (768px and up) */
+@media screen and (min-width: 768px) {
+  .top-left {
+    top: -6rem;
+    left: 0;
+  }
+
+  .bottom-right {
+    bottom: -4rem;
+    right: 0;
+  }
+}
+
+/* Desktop (992px and up) */
+@media screen and (min-width: 992px) {
+  .top-left {
+    top: -8rem !important;
+    left: 0 !important;
+  }
+
+  .bottom-right {
+    bottom: -5rem !important;
+    right: 0 !important;
+  }
 }

@@ -4,28 +4,29 @@ import Image from "next/image";
 const WhyChooseUs = () => {
   const reasons = [
     {
-      title: "Experience & Expertise",
-      description: "Years of industry experience delivering quality solutions",
+      title: "Customizable Platforms",
+      description: "Tailored to meet your unique needs.",
       icon: "Group.png",
     },
     {
-      title: "247 Support",
-      description: "Round-the-clock customer support for all your needs",
+      title: "Free API Integration",
+      description: "Simplify your workflows with robust and easy-to-use APIs.s",
       icon: "Group.png",
     },
     {
-      title: "Competitive Pricing",
-      description: "Best value for money with transparent pricing",
+      title: "Expert Support",
+      description: "Dedicated support team to guide you every step of the way.",
       icon: "Group.png",
     },
     {
-      title: "Quick Solutions",
-      description: "Fast and efficient service delivery",
+      title: "Affordable Hosting Plans",
+      description: "Cost-effective solutions for businesses of all sizes.",
       icon: "Group.png",
     },
     {
-      title: "Quick Solutions",
-      description: "Fast and efficient service delivery",
+      title: "Secure Transactions",
+      description:
+        "Advanced security measures to protect you and your customers.",
       icon: "Group.png",
     },
   ];

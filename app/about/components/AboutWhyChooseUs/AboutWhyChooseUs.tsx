@@ -4,29 +4,28 @@ import Image from "next/image";
 const AboutWhyChooseUs = () => {
   const reasons = [
     {
-      title: "Experience & Expertise",
-      description: "Years of industry experience delivering quality solutions",
-      icon: "/Group.png",
+      title: "Custom VTU and Bill Payment Platforms",
+      description:
+        "Fully customizable solutions to match your unique business requirements.",
+      icon: "Group.png",
     },
     {
-      title: "24/7 Support",
-      description: "Round-the-clock customer support for all your needs",
-      icon: "/Group.png",
+      title: "Seamless API Integration",
+      description:
+        "Free, secure, and easy-to-implement APIs to enhance platform functionality.",
+      icon: "Group.png",
     },
     {
-      title: "Competitive Pricing",
-      description: "Best value for money with transparent pricing",
-      icon: "/Group.png",
+      title: "Comprehensive Services",
+      description:
+        "From web and mobile app development to digital marketing and graphic design, we offer end-to-end solutions to elevate your business.",
+      icon: "Group.png",
     },
     {
-      title: "Quick Solutions",
-      description: "Fast and efficient service delivery",
-      icon: "/Group.png",
-    },
-    {
-      title: "Quick Solutions",
-      description: "Fast and efficient service delivery",
-      icon: "/Group.png",
+      title: "Scalability",
+      description:
+        "Whether you're a startup or an established business, our solutions grow with you.",
+      icon: "Group.png",
     },
   ];
 

@@ -20,19 +20,22 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-800 hover:text-blue-600">
+            <Link href="/" className="text-gray-800 hover:text-[#2989D8]">
               Home
             </Link>
-            <Link href="/about" className="text-gray-800 hover:text-blue-600">
+            <Link href="/about" className="text-gray-800 hover:text-[#2989D8]">
               About
             </Link>
             <Link
               href="/services"
-              className="text-gray-800 hover:text-blue-600"
+              className="text-gray-800 hover:text-[#2989D8]"
             >
               Services
             </Link>
-            <Link href="/contact" className="text-gray-800 hover:text-blue-600">
+            <Link
+              href="/contact"
+              className="text-gray-800 hover:text-[#2989D8]"
+            >
               Contact
             </Link>
           </div>
@@ -75,31 +78,31 @@ const Navbar = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               href="/"
-              className="block text-gray-800 hover:text-blue-600 py-2"
+              className="block text-gray-800 hover:text-[#2989D8] py-2"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="block text-gray-800 hover:text-blue-600 py-2"
+              className="block text-gray-800 hover:text-[#2989D8] py-2"
             >
               About
             </Link>
             <Link
               href="/services"
-              className="block text-gray-800 hover:text-blue-600 py-2"
+              className="block text-gray-800 hover:text-[#2989D8] py-2"
             >
               Services
             </Link>
             <Link
               href="/contact"
-              className="block text-gray-800 hover:text-blue-600 py-2"
+              className="block text-gray-800 hover:text-[#2989D8] py-2"
             >
               Contact
             </Link>
             <Link
               href="/get-started"
-              className="bg-[#2989D8] p-2 text-white rounded-sm cursor-pointer"
+              className="bg-[#2989D8] p-2 my-2 text-white rounded-sm cursor-pointer"
             >
               Get Started
             </Link>

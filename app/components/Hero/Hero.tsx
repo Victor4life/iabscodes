@@ -14,11 +14,12 @@ const Hero = () => {
                 src="Vector.png"
                 alt="VTU Business"
                 fill
-                className="responsive-image"
-              />
+                className="responsive-image animate-bounce-slow"
+              />{" "}
             </div>
             <div className="flex flex-col justify-center items-start h-full ">
-              <h1 className="text-[#343434] text-3xl md:text-[43.2px] leading-tight md:leading-[36px] font-semibold">
+              <h1 className="text-[#343434] text-3xl md:text-[43.2px] leading-tight md:leading-[36px] font-semibold animate-fade-in">
+                {" "}
                 Scale up Your VTU and Bill Payment Business with Secure,
                 Reliable Solutions
               </h1>
@@ -28,9 +29,9 @@ const Hero = () => {
                 experiences.
               </p>
               <div className="flex gap-4 mt-6">
-                <button className="px-6 py-2 text-[#2989D8] border-2 border-[#2989D8] rounded-lg hover:bg-blue-50 transition-colors duration-300">
+                <button className="px-6 py-2 text-[#2989D8] border-2 border-[#2989D8] rounded-lg hover:bg-blue-50 transition-all duration-300 hover:scale-105 transform">
                   Contact Us{" "}
-                </button>
+                </button>{" "}
                 <div className="relative inline-flex">
                   <button className="px-6 py-2 text-white bg-[#2989D8] rounded-lg hover:bg-blue-700 transition-colors duration-300 flex items-center gap-2">
                     Get Started
@@ -40,7 +41,7 @@ const Hero = () => {
                     alt="VTU Business"
                     width={50}
                     height={50}
-                    className="object-contain absolute -bottom-4 -right-4"
+                    className="object-contain absolute -bottom-4 -right-4  animate-pulse-slow"
                   />
                 </div>
               </div>
@@ -50,15 +51,15 @@ const Hero = () => {
                 src="icon-park-twotone_database-power.png"
                 alt="VTU Business"
                 fill
-                className="responsive-image"
-              />
+                className="responsive-image animate-pulse-slow"
+              />{" "}
             </div>
           </div>
         </div>
 
         {/* Images section */}
         <div className="w-full h-100% md:w-1/2">
-          <div className="relative flex gap-2 flex-1 items-center pb-12">
+          <div className="relative flex gap-2 flex-1 items-center mb-12">
             <div className="image-with-pseudo relative">
               <Image
                 src="subway_power.png"

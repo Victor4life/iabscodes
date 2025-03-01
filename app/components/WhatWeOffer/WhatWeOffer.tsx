@@ -5,27 +5,30 @@ const WhyChooseUs = () => {
   const reasons = [
     {
       title: "Airtime and Data Services",
-      description: "Years of industry experience delivering quality solutions",
+      description: "All major networks.",
       icon: "Group 67.png",
     },
     {
       title: "Bill Payment",
-      description: "Round-the-clock customer support for all your needs",
+      description: "Cable TV, electricity, insurance, and more.",
       icon: "Group 68.png",
     },
     {
       title: "Automated Solution",
-      description: "Best value for money with transparent pricing",
+      description:
+        "True response systems, user notifications, and sales calculators.",
       icon: "Group 69.png",
     },
     {
       title: "Multi Level Platforms",
-      description: "Fast and efficient service delivery",
+      description:
+        "Affiliate systems, customizable dashboards, and secure payment gateways.",
       icon: "Group 70.png",
     },
     {
       title: "Comprehensive Services",
-      description: "Fast and efficient service delivery",
+      description:
+        "From web development to digital marketing, we provide end-to-end support.",
       icon: "Group 71.png",
     },
   ];
