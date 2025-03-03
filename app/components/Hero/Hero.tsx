@@ -14,7 +14,7 @@ const Hero = () => {
                 src="Vector.png"
                 alt="VTU Business"
                 fill
-                className="responsive-image animate-bounce-slow"
+                className="responsive-image animate-bounce-slow animate-pulse-slow"
               />{" "}
             </div>
             <div className="flex flex-col justify-center items-start h-full ">
@@ -59,7 +59,7 @@ const Hero = () => {
 
         {/* Images section */}
         <div className="w-full h-100% md:w-1/2">
-          <div className="relative flex gap-2 flex-1 items-center mb-12">
+          <div className="relative flex gap-2 flex-1 items-center mb-12 pb-12 md:pb-0">
             <div className="image-with-pseudo relative">
               <Image
                 src="subway_power.png"
